@@ -1,0 +1,93 @@
+@import "home.css";
+
+body{
+    background-color: #000;
+}
+#header-title{
+    background-color: #00bfa5;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+#header-title span img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#menu{
+    background-color: #000;
+    text-align: center;
+}
+
+.item{
+    background-color: #00bfa5;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    padding: 20px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.item img{
+    position: relative;
+    top: 5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+}
+
+#main{
+    background-color: #fff;
+}
+
+.social-icon{
+    width: 32px;
+    height: 32px;
+}
+
+#quick-links-section{
+    background-color: #00bfa5;
+    color: white;
+    padding: 20px;
+}
+
+#footer-section1{
+    background-color: #00bfa5;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#quick-links-section a{
+    color: #fff;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+#contact-section{
+    color: #fff;
+    padding: 20px;
+}
+
+#social-links-section{
+    color: #fff;
+    padding: 20px;
+}
+
+#social-links-section a{
+    cursor:pointer;
+    text-decoration: none;
+}
+
+#footer-section2{
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+

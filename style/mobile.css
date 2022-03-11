@@ -1,0 +1,27 @@
+
+@media (orientation:portrait), (max-width:600px){
+    body{
+        scroll-behavior: auto;
+        font-size: large;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: column;
+        row-gap:2px;
+    }
+
+    .item{
+        width: 94vw;
+        padding: 20px;
+        text-align: justify;
+        font-weight: bold;
+    }
+
+    #footer-section1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
